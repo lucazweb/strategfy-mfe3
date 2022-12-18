@@ -6,11 +6,18 @@ const mount = (el) => {
   app.mount(el);
 };
 
-if (process.env.NODE_ENV === "development") {
-  const devRoot = document.querySelector("#hello-vue-dev-app");
-  if (devRoot) {
-    mount(devRoot);
-  }
+const devRoot = document.querySelector("#hello-vue-dev-app");
+
+if (devRoot) {
+  mount(devRoot);
 }
+
+// if (process.env.NODE_ENV === "development") {
+//   const devRoot = document.querySelector("#hello-vue-dev-app");
+
+//   if (devRoot) {
+//     mount(devRoot);
+//   }
+// }
 
 export default mount;

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "strategfy-mf-app"
+  },
+  "targets": {
+    "strategfy-mf-app": {
+      "hosting": {
+        "strategfy-mfe3": [
+          "strategfy-mf-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

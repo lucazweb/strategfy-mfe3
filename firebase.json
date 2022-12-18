@@ -1,0 +1,15 @@
+{
+  "hosting": [
+    {
+      "target": "strategfy-mfe3",
+      "public": "dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

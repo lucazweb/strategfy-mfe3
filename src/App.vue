@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <img width="50" src="https://vuejs.org/images/logo.png" />
-    {{ message }}
+  <div style="display: flex; align-items: center;">
+    <img width="40" src="https://vuejs.org/images/logo.png" />
+    <h1 style="font-size: 1.5em">{{ message }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return { message: "Strategy MFE3 . Vue Application Module" };
+    return { message: "Strategfy MFE 3 . Vue Application Module" };
   },
 };
 </script>

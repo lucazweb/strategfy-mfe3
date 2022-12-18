@@ -1,9 +1,10 @@
 {
-  "name": "helloVu",
+  "name": "strategfy-mfe3",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --config=config/webpack.dev.js",
-    "build": "webpack --config=config/webpack.prod.js"
+    "build": "webpack --config=config/webpack.prod.js",
+    "deploy": "firebase deploy --only hosting"
   },
   "dependencies": {
     "vue": "^3.0.0"
